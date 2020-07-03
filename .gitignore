@@ -3,12 +3,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=fortran,linux,windows,code,git
 
 ### Code ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
+.vscode
 
 ### Fortran ###
 # Prerequisites
