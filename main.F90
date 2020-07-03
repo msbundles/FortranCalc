@@ -1,14 +1,19 @@
 program UltraCalc
 implicit none
 character :: op
-READ *,op
-if ( op == '+' ) then
+print *,'Type + for add'
+print *,'Type - for subtract'
+print *,'Type * for multiply'
+print *,'Type d for divide'
+print *,'What would you like to do?: '
+read *,op
+if (op == '+') then
    call add()
-else if ( op == '-' ) then
+else if (op == '-') then
    call sub()
-else if ( op == '*' ) then
+else if (op == '*') then
    call mult()
-else if ( op == 'd' ) then
+else if (op == 'd') then
    call div()
 else
    print *,'Your input was not one of the known symbols.'

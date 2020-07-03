@@ -96,5 +96,5 @@ $RECYCLE.BIN/
 *.lnk
 
 #Extras
-fultracalc
+fortrancalc
 # End of https://www.toptal.com/developers/gitignore/api/fortran,linux,windows,code,git
