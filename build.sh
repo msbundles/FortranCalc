@@ -1,1 +1,2 @@
-gfortran main.f95 -o fultracalc -Wall -Wextra -Wpedantic
+#!/bin/bash
+gfortran main.F90 -o fultracalc -Wall -Wextra -Wpedantic -g

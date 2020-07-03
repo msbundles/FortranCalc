@@ -1,11 +1,7 @@
 program UltraCalc
 implicit none
 character :: op
-print *,'Type + to add'
-print *,'Type - to subtract'
-print *,'Type * to multiply'
-print *,'Type d to divide'
-read *,op
+READ *,op
 if ( op == '+' ) then
    call add()
 else if ( op == '-' ) then
