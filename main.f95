@@ -21,8 +21,8 @@ end program UltraCalc
 
 ! Addition function
 subroutine add()
-integer :: in1,in2,out
-print *,'Input two integers (separated by a space): '
+real :: in1,in2,out
+print *,'Input two integers or real numbers (separated by a return): '
 read *,in1,in2
 out = in1 + in2
 print *,out
@@ -30,8 +30,8 @@ end subroutine add
 
 ! Subtraction function
 subroutine sub()
-integer :: in1,in2,out
-print *,'Input two integers (separated by a space): '
+real :: in1,in2,out
+print *,'Input two integers or real numbers (separated by a return): '
 read *,in1,in2
 out = in1 - in2
 print *,out
@@ -39,8 +39,8 @@ end subroutine sub
 
 ! Multiplication function 
 subroutine mult()
-integer :: in1,in2,out
-print *,'Input two integers (separated by a space): '
+real :: in1,in2,out
+print *,'Input two integers or real numbers (separated by a return): '
 read *,in1,in2
 out = in1 * in2
 print *,out
@@ -48,8 +48,8 @@ end subroutine mult
 
 ! Division function
 subroutine div()
-integer :: in1,in2,out
-print *,'Input two integers (separated by a space): '
+real :: in1,in2,out
+print *,'Input two integers or real numbers (separated by a return): '
 read *,in1,in2
 out = in1 / in2
 print *,out
