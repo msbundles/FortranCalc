@@ -1,12 +1,15 @@
 program UltraCalc
   implicit none
   character :: op
+  ! Printing available symbols 
   print *,'Type + for add'
   print *,'Type - for subtract'
   print *,'Type * for multiply'
   print *,'Type d for divide'
   print *,'What would you like to do?: '
+  ! Taking in user input
   read *,op
+  ! Logic to check user input an run the appropriate function
   if (op == '+') then
      call add()
   else if (op == '-') then
